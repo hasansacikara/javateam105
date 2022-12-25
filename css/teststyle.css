@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    color: brown;
+    }
+    
+    h1{
+        text-align: right;
+        font-weight: 900;
+    }
+    
+    .container{
+    background-color: aqua;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    }
+    
+    .baslik{
+    border: 5px solid green;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px red
+    }

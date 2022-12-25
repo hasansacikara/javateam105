@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input, textarea{
+    border: 2px solid rgb(90, 4, 105) ;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+button{
+    border: 2px solid rgb(90, 4, 105) ;
+    border-radius: 10px;
+    background-color: rgb(121, 6, 142);
+    padding: 10px 30px;
+font-size: 30px;
+color: beige;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: rgb(199, 19, 231) ;
+    border-radius: 40px;
+    padding: 15px 30px;
+}
+
+.header .title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content .about{
+    display: flex;
+    padding: 50px;
+    width: 85%;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.content .about img{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 5px solid rgb(90, 4, 105);
+    margin-left: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.content h1 {
+    display: flex;
+  }
+
+.content h1 span{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:rgb(90, 4, 105) ;
+}
+
+.content .toolbar a{
+width: 50px;
+height: 100px;
+    background-color:  rgb(199, 19, 231);
+    border-radius: 25px;
+    margin:20px ;
+}
+
+.section{
+
+    width: 60%;
+    gap: 20px;
+}
+
+.section .card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(90, 4, 105);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 3px 3px 8px gray;
+}
+
+.section .card .left{
+    flex: 2;
+}
+.section .card .right{
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dotted gray;
+    color: rgb(90, 4, 105);
+}
